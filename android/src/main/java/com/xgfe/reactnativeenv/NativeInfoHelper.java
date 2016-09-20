@@ -42,8 +42,10 @@ class NativeInfoHelper {
                         break;
                     case "VERSION_NAME":
                         infos.put("VERSION_NAME", field.get(null));
+                        break;
                     case "APP_ENV":
                         infos.put("APP_ENV", field.get(null));
+                        break;
                 }
             }
         } catch (IllegalAccessException e) {

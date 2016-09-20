@@ -1,4 +1,4 @@
-import {NativeModules, Platform} from 'react-native';
+import { NativeModules, Platform } from 'react-native';
 
 let RCTNativeEnv = Platform.OS === 'android' ? NativeModules.NativeEnvironment : NativeModules.LRDRCTNativeEnv;
 //first try to get infos from constants to get base info
